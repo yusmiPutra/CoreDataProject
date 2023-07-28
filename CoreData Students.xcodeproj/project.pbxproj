@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C69219AC2A7213C2007F8D06 /* StudentsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69219AB2A7213C2007F8D06 /* StudentsCell.swift */; };
+		C69219AE2A7220C8007F8D06 /* DetailStudentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C69219AD2A7220C8007F8D06 /* DetailStudentController.swift */; };
 		C6D8F7EE2A71199F00B7514D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D8F7ED2A71199F00B7514D /* AppDelegate.swift */; };
 		C6D8F7F02A71199F00B7514D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D8F7EF2A71199F00B7514D /* SceneDelegate.swift */; };
 		C6D8F7F22A71199F00B7514D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D8F7F12A71199F00B7514D /* ViewController.swift */; };
@@ -14,9 +16,12 @@
 		C6D8F7F82A71199F00B7514D /* CoreData_Students.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C6D8F7F62A71199F00B7514D /* CoreData_Students.xcdatamodeld */; };
 		C6D8F7FA2A7119A100B7514D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6D8F7F92A7119A100B7514D /* Assets.xcassets */; };
 		C6D8F7FD2A7119A100B7514D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6D8F7FB2A7119A100B7514D /* LaunchScreen.storyboard */; };
+		C6D8F8052A711DC700B7514D /* TambahStudentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D8F8042A711DC700B7514D /* TambahStudentController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C69219AB2A7213C2007F8D06 /* StudentsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentsCell.swift; sourceTree = "<group>"; };
+		C69219AD2A7220C8007F8D06 /* DetailStudentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailStudentController.swift; sourceTree = "<group>"; };
 		C6D8F7EA2A71199F00B7514D /* CoreData Students.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoreData Students.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6D8F7ED2A71199F00B7514D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C6D8F7EF2A71199F00B7514D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +31,7 @@
 		C6D8F7F92A7119A100B7514D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6D8F7FC2A7119A100B7514D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C6D8F7FE2A7119A100B7514D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6D8F8042A711DC700B7514D /* TambahStudentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TambahStudentController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 				C6D8F7FB2A7119A100B7514D /* LaunchScreen.storyboard */,
 				C6D8F7FE2A7119A100B7514D /* Info.plist */,
 				C6D8F7F62A71199F00B7514D /* CoreData_Students.xcdatamodeld */,
+				C6D8F8042A711DC700B7514D /* TambahStudentController.swift */,
+				C69219AB2A7213C2007F8D06 /* StudentsCell.swift */,
+				C69219AD2A7220C8007F8D06 /* DetailStudentController.swift */,
 			);
 			path = "CoreData Students";
 			sourceTree = "<group>";
@@ -141,7 +150,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6D8F8052A711DC700B7514D /* TambahStudentController.swift in Sources */,
+				C69219AC2A7213C2007F8D06 /* StudentsCell.swift in Sources */,
 				C6D8F7F22A71199F00B7514D /* ViewController.swift in Sources */,
+				C69219AE2A7220C8007F8D06 /* DetailStudentController.swift in Sources */,
 				C6D8F7EE2A71199F00B7514D /* AppDelegate.swift in Sources */,
 				C6D8F7F82A71199F00B7514D /* CoreData_Students.xcdatamodeld in Sources */,
 				C6D8F7F02A71199F00B7514D /* SceneDelegate.swift in Sources */,
@@ -291,6 +303,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HCU29KMFF7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "CoreData Students/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -318,6 +331,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HCU29KMFF7;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "CoreData Students/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
